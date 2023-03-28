@@ -1,0 +1,40 @@
+Kristiana P.I see that you have 2 active hosting plans with us:
+
+FastCloud - mimallgh.com
+FastCloud Plus - ghfarmgate.com
+
+FastCloud allows the hosting of only 1 domain, meaning that you will be able to add more domains under your FastCloud Plus only.
+
+That being said, in order to host a new domain name to your "FastCloud Plus - ghfarmgate.com" plan, you should take the following 2 steps:
+Markowkay Madam, am following please
+
+
+Kristiana P.1) go to cPanel > Addon Domains, and add the new domain name (which will create a directory for it so it works as a separate website). Here's also a guide with screenshots you can refer to:
+
+> https://www.fastcomet.com/tutorials/cpanel/addon-domains
+
+2) you will also need to point your domain name to the nameservers of your hosting plan, which are:
+
+ns1.s10.fcomet.com
+ns2.s10.fcomet.com
+
+That can be done from the place your domain is registered.
+
+Please bear in mind that nameserver change doesn't come into effect immediately, meaning that it may take from a few minutes to a few hours until the new nameservers apply and your new domain starts resolving to our server.
+MarkPlease the new domain name must have been purchased freshly right?
+
+
+Kristiana P.That is of no importance - it's only vital that the domain is active at the moment
+MarkI meant to say, i need to buy a new domain name and then add it to my host as an Addon?
+
+
+Kristiana P.Yes, that is correct
+MarkOwkay Madam
+
+i will follow your steps
+
+Thanks Madam
+
+
+Kristiana P.Most welcome!
+Mark:)

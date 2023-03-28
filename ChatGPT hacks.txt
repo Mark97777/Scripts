@@ -1,0 +1,102 @@
+var pTag = document.querySelector("p");
+
+///////////////////////////////////////////////////////
+
+how to select an object value in a list of objects
+
+If you have a list of objects and you want to retrieve a specific value within one of the objects, you can use the bracket notation to access the desired value.
+
+For example, if you have the following list of objects:
+
+my_list = [
+  {'name': 'John', 'age': 30},
+  {'name': 'Mary', 'age': 25},
+  {'name': 'Tom', 'age': 20}
+]
+
+You can access the age of John by using the bracket notation and the name key:
+
+john_age = my_list[0]['age']
+
+This will set the variable john_age to the value of 30.
+
+
+
+////////////////////////////////////////////////
+
+how to append a javascript object
+
+To append a JavaScript object, you can use the Object.assign() or the spread operator (...). 
+
+Object.assign():
+
+let obj1 = { a: 1, b: 2 };
+let obj2 = { c: 3, d: 4 };
+
+Object.assign(obj1, obj2);
+
+// obj1 is now { a: 1, b: 2, c: 3, d: 4 }
+
+Spread Operator:
+
+let obj1 = { a: 1, b: 2 };
+let obj2 = { c: 3, d: 4 };
+
+let obj3 = { ...obj1, ...obj2 };
+
+//obj3 is now { a: 1, b: 2, c: 3, d: 4 
+
+
+
+///////////////////////////////////////////////////////////////
+
+how to set a passed parameter is clicked in javascript
+
+You can use the following code to set a parameter as "clicked" when it is passed to a JavaScript function.
+
+function setClicked(parameter) {
+    parameter.clicked = true;
+}
+
+
+////////////////////////////////////////////////////////////////
+
+
+You can use the PHP's DOMDocument class to parse and convert an HTML page into plaintext.
+
+Here is an example of how to do it:
+
+// Create a new DOMDocument object
+$doc = new DOMDocument();
+
+// Load an HTML page
+$doc->loadHTMLFile("example.html");
+
+// Create a new DOMXPath object
+$xpath = new DOMXPath($doc);
+
+// Query the document for all text nodes
+$nodes = $xpath->query("//text()");
+
+// Loop through each node
+foreach($nodes as $node) {
+	// Output the text from the node
+	echo $node->nodeValue . "\n";
+}
+
+
+//////////////////////////////////////////////////////////
+PUSH NOTIFICATION SERVICES
+app.webpushr.com*
+onesignal -
+
+////////////////////////////////////////
+webpushr
+
+<!-- start webpushr code --> <script>(function(w,d, s, id) {if(typeof(w.webpushr)!=='undefined') return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.async=1;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('setup',{'key':'BAQpEYzmNn101bP1IxRgrmHHOuyd9p2uWSr7bDR6m2JiBFDzkc04xcjnRiP2agBNEwF9Agy7WtaplAOCzgSlsQs' ,'integration':'popup' });</script><!-- end webpushr code -->
+
+
+////////////////////////////////////
+creating custom graphic elements in Microsoft Word
+
+Creating custom graphic elements in Microsoft Word is possible with the help of shapes, text boxes, and other graphic tools. To create a custom graphic element, you need to open the Insert tab and select the Shapes option. From here, you can choose from a wide range of shapes to create your custom graphic. Additionally, you can also insert text boxes and other graphic elements to add additional detail. Once your graphic is complete, you can save it as a template to use again later.

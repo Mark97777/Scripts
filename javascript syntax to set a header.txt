@@ -1,0 +1,16 @@
+javascript syntax to set a header
+
+var myHeaders = new Headers();
+myHeaders.append("Content-Type", "text/plain");
+
+// or
+
+fetch('url', {
+    method: 'GET',
+    headers: {
+        'Content-Type': 'text/plain'
+    }
+})
+
+
+https://www.sourcecodester.com/tutorial/javascript/15906/creating-screencapture-chrome-extension-using-js-and-html2canvas-tutorial

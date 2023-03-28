@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset = "utf-8" />
+	<meta name = "viwport" content = "width=device-width,initial-scale=1" />
+	<!-- DataTable CSS-->
+	<link href="datatables.min.css" rel="stylesheet"/>
+	<style>
+		* {
+			margin: 0;
+			box-sizing: border-box;
+		}
+		nav {
+			display: flex;
+			justify-content: space-between;
+			background-color: wheat;
+			padding: 2rem;
+		}
+		nav ul {
+			display: flex;
+			justify-content: flex-end;
+			list-style: none;
+			gap: 2em;
+		}
+	</style>
+	
+</head>
+
+<body>
+	<nav>
+		<b>Logo</b>
+		
+		<ul>
+			<li>Home</li>
+			<li>Products</li>
+			<li>Service</li>
+			<li>About</li>
+			<li>Contact</li>
+		</ul>
+	</nav>
+	
+	<table id = "example1">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Name</th>
+				<th>Skill</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Mark</td>
+				<td>Software Developer</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Kukua</td>
+				<td>Software Engineer</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Mimi</td>
+				<td>Manager</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Mark</td>
+				<td>Software Developer</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Kukua</td>
+				<td>Software Engineer</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>Mimi</td>
+				<td>Manager</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>Mark</td>
+				<td>Software Developer</td>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td>Kukua</td>
+				<td>Software Engineer</td>
+			</tr>
+			<tr>
+				<td>9</td>
+				<td>Mimi</td>
+				<td>Manager</td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td>Mark</td>
+				<td>Software Developer</td>
+			</tr>
+			<tr>
+				<td>11</td>
+				<td>Kukua</td>
+				<td>Software Engineer</td>
+			</tr>
+			<tr>
+				<td>12</td>
+				<td>Mimi</td>
+				<td>Manager</td>
+			</tr>
+			<tr>
+				<td>13</td>
+				<td>Mark</td>
+				<td>Software Developer</td>
+			</tr>
+			<tr>
+				<td>14</td>
+				<td>Kukua</td>
+				<td>Software Engineer</td>
+			</tr>
+			<tr>
+				<td>15</td>
+				<td>Mimi</td>
+				<td>Manager</td>
+			</tr>
+			<tr>
+				<td>16</td>
+				<td>Mark</td>
+				<td>Software Developer</td>
+			</tr>
+			<tr>
+				<td>17</td>
+				<td>Kukua</td>
+				<td>Software Engineer</td>
+			</tr>
+			<tr>
+				<td>18</td>
+				<td>Mimi</td>
+				<td>Manager</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	
+	<!-- Jquery + datatables + button JS-->
+	<script src="jquery-datatables-buttons.min.js"></script>
+    </script>
+	
+	<script>
+		// Initializing the datatable library
+
+			$('#example1').DataTable();
+
+
+	</script>
+</body>
+</html>

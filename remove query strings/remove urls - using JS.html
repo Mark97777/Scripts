@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>REMOVE QUERY STRINGS</title>
+	<meta charset = "utf-8" />
+</head>
+
+<body>
+
+<h1>Query Strings Removal System | JavaScript | Cyberkodes</h1>
+
+<script type = "text/javascript">
+	const url = 'https://example.com/posts?page=5&sort=desc#hash';
+
+	const urlObj = new URL(url);
+
+	console.log(urlObj.host); // example.com
+
+	console.log(urlObj.origin); // https://example.com
+
+	console.log(urlObj.protocol); // https:
+
+</script>
+
+
+</body>
+
+</html>
